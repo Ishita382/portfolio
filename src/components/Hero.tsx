@@ -249,12 +249,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30">
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
-          <div className="w-5 h-8 border border-white/20 rounded-full flex justify-center pt-1">
-            <div className="w-1 h-2 bg-primary rounded-full animate-bounce" />
-          </div>
-        </div>
+       
       </div>
     </section>
   );
