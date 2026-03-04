@@ -6,7 +6,7 @@ const roles = [
   "Software Development Engineer",
   "Frontend Developer",
   "React & Next.js Expert",
-  "TypeScript Enthusiast",
+  "TypeScript and JavaScript Developer",
   "UI/UX Craftsperson",
 ];
 
@@ -151,10 +151,6 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-primary/20 text-sm text-primary/80 mb-8 animate-fade-in">
-          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          Available for opportunities
-        </div>
 
         {/* Name */}
         <h1

@@ -5,7 +5,7 @@ import SectionWrapper from "./SectionWrapper";
 const stats = [
   { value: "3+", label: "Years Experience", color: "text-violet-400", bg: "bg-violet-500/8", border: "border-violet-500/20" },
   { value: "2", label: "Companies", color: "text-cyan-400", bg: "bg-cyan-500/8", border: "border-cyan-500/20" },
-  { value: "10+", label: "Projects Built", color: "text-pink-400", bg: "bg-pink-500/8", border: "border-pink-500/20" },
+  { value: "20+", label: "Projects Built", color: "text-pink-400", bg: "bg-pink-500/8", border: "border-pink-500/20" },
   { value: "100+", label: "Active Users", color: "text-emerald-400", bg: "bg-emerald-500/8", border: "border-emerald-500/20" },
 ];
 
@@ -32,10 +32,10 @@ export default function About() {
           <p className="text-white/60 leading-relaxed mb-4">
             I am a Software Development Engineer with extensive experience in
             frontend software development, specializing in{" "}
-            <span className="text-amber-400">JavaScript</span>,{" "}
-            <span className="text-primary">TypeScript</span>,{" "}
-            <span className="text-cyan-400">React JS</span>,{" "}
-            <span className="text-violet-400">React Native</span>, and various
+            <span className="text-amber-400">React JS</span>,{" "}
+            <span className="text-primary">JavaScript</span>,{" "}
+            <span className="text-cyan-400">Next Js</span>,{" "}
+            <span className="text-violet-400">TypeScript</span>, and various
             modern technologies.
           </p>
           <p className="text-white/60 leading-relaxed mb-8">
@@ -55,13 +55,7 @@ export default function About() {
               </svg>
               ishitaarora382@gmail.com
             </a>
-            <div className="inline-flex items-center gap-2 px-5 py-2.5 glass border border-white/10 text-white/60 rounded-xl text-sm">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              Gurugram, India
-            </div>
+            
           </div>
         </div>
 

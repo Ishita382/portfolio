@@ -79,12 +79,7 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
-            <a
-              href="mailto:ishitaarora382@gmail.com"
-              className="ml-4 px-4 py-2 text-sm font-medium btn-gradient text-white rounded-lg"
-            >
-              Hire Me
-            </a>
+            
           </div>
 
           {/* Mobile menu button */}
@@ -134,12 +129,7 @@ export default function Navbar() {
               {link.label}
             </button>
           ))}
-          <a
-            href="mailto:ishitaarora382@gmail.com"
-            className="mt-2 px-4 py-3 text-sm font-medium btn-gradient text-white rounded-lg text-center"
-          >
-            Hire Me
-          </a>
+          
         </div>
       </div>
     </nav>
